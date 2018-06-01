@@ -1,0 +1,122 @@
+body{
+	
+	font-family:times,arial;
+	border:3px solid black;
+}
+	
+header{
+	background-color:552AFF;
+	color:white;
+	padding:10px;
+	margin:0px;
+	overflow:hidden;
+	border: 2px solid black;
+	
+	
+}	
+	
+	header img{
+		float:left;
+		padding: 0px 20px;
+		
+		
+	}
+	
+	
+	 header h1{
+	  font-size:4.5em;
+	  margin:10px 50px 10px 360px;
+	  padding:0px;
+	  float-left:50px;
+}
+header h2{
+	font-size:2.5em;
+	padding:0px 50px 0px 450px;
+	margin:10px 10px 10px 30px;
+	float-left:50px;
+}
+.nav ul{
+	list-style-type:none;
+	background-color:FFD4FF;
+	 margin:0px;
+	 overflow:hidden;
+	 padding:0px 20px;
+	 border:2px solid black;
+	 
+	
+}
+.nav li {
+	float:left;
+	margin:0px;
+	
+	
+}
+.nav li a{
+	text-decoration:none;
+	padding:10px 25px;
+	margin:0px;
+	display:block;
+	font-size:1.2em;
+	color:0000FF;
+}
+.nav li a:hover{
+	background-color:55FF55;
+	color:white;
+}
+
+   .content{
+	   border:5px double green;
+	   font-family:arial;
+	   font-size:1.5em;
+	   margin:5px;
+   }
+	  
+   
+   .content img{
+	   border:5px groove black;
+	   float:right;
+	   margin:5px;
+	   
+	  
+   }
+   .content h1{
+	   color:FF0000;
+	   padding:0px 50px 10px; 
+   }
+    .content h3{
+		margin:5px;
+		color:2AFF00;
+	}
+	 
+	 .content p{
+		 margin:10px;
+		 
+	 }
+	 .images img{
+		 border:5px yellow solid;
+		 border-radius:3px;
+		 margin:10px 200px;
+	 }
+	 .images{
+		 border:5px double green;
+	   font-family:arial;
+	   font-size:1.5em;
+	   margin:5px;
+	 }
+	 .images h1{
+		color:FF0000;
+	   padding:0px 50px 10px; 
+	 }
+	 
+	 
+	 .images article{
+		 border:2px inset  black;
+		 border-radius:5px;
+		 padding:5px;
+		 margin:20px;
+	 }
+   
+   footer{
+	  color:black;
+	  padding: 5px 20px;
+  }

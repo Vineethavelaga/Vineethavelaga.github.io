@@ -1,0 +1,66 @@
+<html>
+<head>
+<title> strings</title>
+</head>
+<body>
+<center><h1>Hello world</h1></center>
+<h2>uppercase</h2>
+<h3>input:</h3><p id="txt0"> hello</p>
+<h3>output:</h3><p id="txt"></p><hr>
+<h2>String length</h2>
+<h3>input:</h3><p id="txt0">vineetha</p>
+<h3>output:</h3><p id="txt1"></p><hr>
+<h2>search</h2>
+<h3>input:</h3><p id="txt0">hi,what are "you" doing</p>
+<h3>output:</h3><p id="txt2"></p><hr>
+<h2>Index</h2>
+<h3>input:</h3><p id="txt0">hi "how"are you</p>
+<h3>output:</h3><p id="txt3"></p><hr>
+<h2>Substring</h2>
+<h3>input:</h3><p id="txt0">hello, how are you doing</p>
+<h3>output:</h3><p id="txt4"></p><hr>
+<h2>slice</h2>
+<h3>input:</h3><p id="txt0"> hello, everyone</p>
+<h3>output:</h3><p id="txt5"></p><hr>
+<h2>Replace</h2>
+<h3>input:</h3><p id="txt0">welcome vinee</p>
+<h3>output:</h3><p id="txt6"></p><hr>
+<h2>Lowercase</h2>
+<h3>input:</h3><p id="txt0">VINEE</p>
+<h3>output:</h3><p id="txt7"></p><hr>
+<h2>charAt</h2>
+<h3>input:</h3><p id="txt0"> hello world</p>
+<h3>output:</h3><p id="txt8"></p><hr>
+<h2>charcodeAt</h2>
+<h3>input:</h3><p id="txt0"> hello world</p>
+<h3>output:</h3><p id="txt9"></p><hr>
+<h2>Trim</h2>
+<h3>input:</h3><p id="txt0">"    hello    "</p>
+<h3>output:</h3><p id="txt10"></p><hr>
+<h2>substr</h2>
+<h3>input:</h3><p id="txt0"> hello,how are you</p>
+<h3>output:</h3><p id="txt11"></p><hr>
+<h2>concat</h2>
+<h3>input:</h3><p id="txt0">" hello" "kiet"</p>
+<h3>output:</h3><p id="txt12"></p><hr>
+<h2>split</h2>
+<h3>input:</h3><p id="txt0">vinee,sai,nithya</p>
+<h3>output:</h3><p id="txt13"></p><hr>
+<script type="text/javascript">
+document.getElementById("txt").innerHTML="hello".toUpperCase();
+document.getElementById("txt1").innerHTML="vineetha".length;
+document.getElementById("txt2").innerHTML="hi,what are you doing".search("you");
+document.getElementById("txt3").innerHTML="hi how are you".indexOf("how");
+document.getElementById("txt4").innerHTML="hello, how are you doing".substring(8,20);
+document.getElementById("txt5").innerHTML="hello everyone".slice(0,5);
+document.getElementById("txt6").innerHTML="welcome vinee".replace("vinee","sai");
+document.getElementById("txt7").innerHTML="VINEE".toLowerCase();
+document.getElementById("txt8").innerHTML="hello world".charAt("3");
+document.getElementById("txt9").innerHTML="hello world".charCodeAt("8");
+document.getElementById("txt10").innerHTML="   hello   ".trim();
+document.getElementById("txt11").innerHTML="hello, how are you".substr(7,15);
+document.getElementById("txt12").innerHTML="'hello' 'kiet'".concat("");
+document.getElementById("txt13").innerHTML="vinee,sai,nithya".split("");
+</script>
+</body>
+</html>
